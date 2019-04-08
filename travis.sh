@@ -1,4 +1,12 @@
 #!/bin/bash
+# sphinx extensions
+mkdir python
+cd python
+git clone https://github.com/obonaventure/mscgen.git
+pip3 install -e mscgen
+git clone https://github.com/sphinx-contrib/tikz.git
+pip3 install -e tikz
+cd ..
 # on error exit
 set -e
 # Flags used here, not in `make html`:
