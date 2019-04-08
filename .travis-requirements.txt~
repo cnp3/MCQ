@@ -1,3 +1,0 @@
- setuptools
- sphinx==1.8.3
- sphinxcontrib-tikz
