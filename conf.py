@@ -74,7 +74,7 @@ language = 'en'
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
-exclude_trees = ['_build']
+exclude_trees = ['_build', 'python']
 
 # List of files that should not be automatically compiled by sphynx because they are included
 
@@ -142,7 +142,7 @@ html_logo = None
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static', 'mcq/static']
+html_static_path = ['mcq/static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
