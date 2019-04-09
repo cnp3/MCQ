@@ -47,8 +47,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Computer networking : Principles, Protocols and Practice'
-copyright = u'2013 Olivier Bonaventure'
+project = 'Computer networking : Principles, Protocols and Practice'
+copyright = '2013 Olivier Bonaventure'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -79,7 +79,7 @@ exclude_trees = ['_build', 'python']
 # List of files that should not be automatically compiled by sphynx because they are included
 
 exclude_patterns = [ '*#*',   # emacs backups
-                     'MCQ.old/*']
+                     'python/*']
 
 # epilog add to all included files
 #rst_epilog = """
@@ -194,8 +194,8 @@ latex_paper_size = 'a4'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'CNP3.tex', u'Computer Networking : Principles, Protocols and Practice',
-   u'Olivier Bonaventure', 'manual'),
+  ('index', 'CNP3.tex', 'Computer Networking : Principles, Protocols and Practice',
+   'Olivier Bonaventure', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -211,9 +211,9 @@ latex_logo = "cnp3.png"
 
 latex_elements = {
 'preamble': '''
-\usepackage{tikz}
-\usepackage{pgfplots}
-\usetikzlibrary{arrows,positioning, matrix,backgrounds,shapes}
+\\usepackage{tikz}
+\\usepackage{pgfplots}
+\\usetikzlibrary{arrows,positioning, matrix,backgrounds,shapes}
 '''
 }
 
